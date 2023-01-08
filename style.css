@@ -1,10 +1,114 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-body{
+
+body {
     background: #000;
     color: #fff;
+}
+
+/* header-section */
+#header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/images/header-image.png);
+    background-position: center;
+    background-size: cover;
+    padding: 15px 4%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 140px;
+    cursor: pointer;
+}
+
+nav button {
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.lang-btn {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.lang-btn img {
+    width: 10px;
+    margin-left: 10px;
+}
+
+.header-contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 100px;
+}
+
+.header-contents h1 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    max-width: 650px;
+    margin-bottom: 10px;
+}
+
+.header-contents h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.email-signup {
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.email-signup input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+
+.email-signup button {
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+    display: inline-flex;
+}
+.email-signup button img {
+    width: 10px;
+    color: #fff;
+    margin-left: 8px;
 }
