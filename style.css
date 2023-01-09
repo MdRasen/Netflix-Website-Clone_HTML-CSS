@@ -107,8 +107,46 @@ nav button {
     padding: 15px 30px;
     display: inline-flex;
 }
+
 .email-signup button img {
     width: 10px;
     color: #fff;
     margin-left: 8px;
+}
+
+/* features-section */
+#features {
+    padding: 20px 10%;
+    font-size: 22px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.text-col {
+    flex-basis: 50%;
+}
+
+.img-col {
+    flex-basis: 50%;
+}
+
+.img-col img {
+    display: block;
+    width: 95%;
+}
+
+.text-col h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.text-col p {
+    font-size: 25px;
 }
